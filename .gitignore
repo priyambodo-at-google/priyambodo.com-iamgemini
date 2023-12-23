@@ -160,4 +160,4 @@ cython_debug/
 #.idea/
 
 # ignored by Doddi Priyambodo
-.virtualenv-priyambodo 
+archived*
