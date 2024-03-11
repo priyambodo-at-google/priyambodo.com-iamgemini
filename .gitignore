@@ -160,4 +160,22 @@ cython_debug/
 #.idea/
 
 # ignored by Doddi Priyambodo
+#(OLD)
 archived*
+.venv
+.env
+__pycache__
+.DS_Store
+.vscode
+.secret
+.guide 
+.gitignore
+apikey.json
+#sh*
+unused-donotdelete
+archived-donotupload
+#(NEW)
+archived*
+*sh
+apikey.json
+.venv
