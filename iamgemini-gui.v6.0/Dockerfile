@@ -21,4 +21,4 @@ COPY . .
 EXPOSE 8080
 
 # Set entrypoint to start Streamlit
-ENTRYPOINT ["streamlit", "run", "0_🥷_I_am_Gemini_v5.py", "--server.port=8080", "--server.address=0.0.0.0"]
+ENTRYPOINT ["streamlit", "run", "0_🥷_I_am_Gemini_v6.py", "--server.port=8080", "--server.address=0.0.0.0"]
