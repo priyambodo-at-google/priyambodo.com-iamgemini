@@ -1,5 +1,6 @@
 #/bin/bash
 poetry shell #--> Just do this if you already install and configure your Poetry
+source .venv/bin/activate #--> Just do this if you already install and configure your Poetry
 
 #------------------------------------------------------------------------------
 #Do this if you haven't install and configure your Poetry

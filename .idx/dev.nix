@@ -13,7 +13,12 @@
   ];
 
   # Sets environment variables in the workspace
-  env = {};
+  env = {
+    GCP_REGION = "us-central1";
+    GCP_PROJECT = "work-mylab-machinelearning";
+    AR_REPO = "iamgemini-priyambodocom-artifactregistry";
+    SERVICE_NAME = "iamgemini-priyambodo-com";
+  };
   idx = {
     # Search for the extensions you want on https://open-vsx.org/ and use "publisher.id"
     extensions = [
