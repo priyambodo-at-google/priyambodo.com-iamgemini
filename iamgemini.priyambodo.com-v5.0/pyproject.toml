@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "iamgemini-priyambodo-com-v5-0"
+version = "5.0"
+description = "version 5.0"
+authors = ["Doddi Priyambodo <priyambodo@google.com>"]
+readme = "README.md"
+packages = [{include = "iamgemini"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+google-cloud-aiplatform = "^1.71.1"
+streamlit = "^1.39.0"
+google-cloud-logging = "^3.11.3"
+langchain = "^0.3.7"
+google-cloud-discoveryengine = "^0.13.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

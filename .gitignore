@@ -176,6 +176,6 @@ unused-donotdelete
 archived-donotupload
 #(NEW)
 archived*
-*sh
+#*sh
 apikey.json
 .venv
