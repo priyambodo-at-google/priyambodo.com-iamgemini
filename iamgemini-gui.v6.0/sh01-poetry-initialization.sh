@@ -15,6 +15,7 @@ rm poetry.lock
 
 #Initialize the Poetry environment 
 poetry new myapp #(optional)
+poetry new iamgemini-gui.v6.0 #(optional)
 poetry init
 
 #Activate the environment in your directory

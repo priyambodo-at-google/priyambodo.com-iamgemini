@@ -1,18 +1,18 @@
 [tool.poetry]
-name = "iamgemini-priyambodo-com-v5-0"
-version = "5.0"
-description = "version 5.0"
-authors = ["Doddi Priyambodo <priyambodo@google.com>"]
+name = "iamgemini-gui-v6-0"
+version = "6.0"
+description = "iamgemini.priyambodo.com"
+authors = ["admin <admin@priyambodo.altostrat.com>"]
 readme = "README.md"
-packages = [{include = "iamgemini"}]
+packages = [{include = "iamgemini_gui"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-google-cloud-aiplatform = "^1.71.1"
-streamlit = "^1.39.0"
+streamlit = "^1.41.1"
+google-cloud-aiplatform = "^1.75.0"
 google-cloud-logging = "^3.11.3"
-langchain = "^0.3.7"
-google-cloud-discoveryengine = "^0.13.3"
+langchain = "^0.3.13"
+google-cloud-discoveryengine = "^0.13.5"
 
 
 [build-system]
