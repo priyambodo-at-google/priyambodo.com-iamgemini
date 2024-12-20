@@ -16,6 +16,7 @@ html_code = """
 def run():
     st.set_page_config(page_icon="static/usd.ico")
     st.markdown(vNoLabel, unsafe_allow_html=True)
+    st.title("Welcome to I am Gemini")
     st.header('🥷 :red[I am Gemini]-v5 - ":blue[PEnguin] :green[AI Showcases]"', divider="rainbow")
     st.caption("[https://iamgemini.priyambodo.com] | [https://iamrich.priyambodo.com] | [https://iamtelco.priyambodo.com]")
     st.write(html_code)
